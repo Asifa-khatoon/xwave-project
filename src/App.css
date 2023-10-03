@@ -1,5 +1,25 @@
+.text-color{
+    color: #7fad39 !important;
+}
 
+.bg-colorr{
+    background-color: #7fad39;
+}
 
-.logo-color{
-    color: #3b5998;
+.bg-images{
+    background-image: url('./images/banner.jpg');
+}
+.bg-phonee{
+    background-color: #f5f5f5;
+}
+.text-size{
+    font-size: 15px;
+
+}
+.text-size-2{
+    font-size: 13px;
+
+}
+.border-nonee{
+    border: none;
 }
