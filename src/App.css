@@ -1,6 +1,12 @@
+*{
+   
+        font-family: 'Cairo', sans-serif;
+      
+}
 .text-color{
     color: #7fad39 !important;
 }
+
 
 .bg-colorr{
     background-color: #7fad39;
@@ -16,6 +22,9 @@
     font-size: 15px;
 
 }
+.pointerr{
+    cursor: pointer;
+}
 .text-size-2{
     font-size: 13px;
 
@@ -23,3 +32,23 @@
 .border-nonee{
     border: none;
 }
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  
+  
+  .button-container {
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .bg-blog{
+    background-image: url("./images/blogbg.jpg");
+  }
+  
+  
+
