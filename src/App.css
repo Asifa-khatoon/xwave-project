@@ -7,6 +7,13 @@
     color: #7fad39 !important;
 }
 
+.hovering:hover{
+    color: #7fad39 !important;
+    cursor: pointer;
+
+}
+
+
 
 .bg-colorr{
     background-color: #7fad39;
