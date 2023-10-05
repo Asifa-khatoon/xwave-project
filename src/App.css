@@ -29,8 +29,12 @@
     font-size: 15px;
 
 }
+
 .pointerr{
     cursor: pointer;
+}
+.f-ww{
+    font-weight: 600 !important;
 }
 .text-size-2{
     font-size: 13px;

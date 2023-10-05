@@ -11,34 +11,40 @@ const Blog = () => {
     <div>
       <Navbar />
 
-      <div className="bg-blog text-white py-4">
-        <h1 className="fw-bolder text-center"> Blog</h1>
-        <p className="fw-bold text-center">
-          {" "}
-          HOME- <span> Blog</span>
-        </p>
-      </div>
-      <div class="col-lg-4">
-            <div class="search-container">
-              <input
-                type="text"
-                class="search-input fa fa-search"
-                placeholder="Search..."
-              />
-            </div>
-         
-            <h3 className="fw-bold mt-5  hovering"> Categories</h3>
+      <section class="blog spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-5">
+                    <div class="blog__sidebar">
+                        <div class="blog__sidebar__search">
+                            <form className="" action="">
+                              <p className="border">
+                                <input className="border-nonee" type="text" placeholder="Search..."/>
+                                <span class="fa fa-search border-nonee"></span> </p>
+                            </form>
+                        </div>
+                        <div class="blog__sidebar__item">
+                            
+
+
+                        <h3 className="fw-bold mt-5  hovering"> Categories</h3>
             <div className="my-5">
               <p className="text-secondary p-2 hovering"> ALL</p>
               <p className="text-secondary py-2 hovering"> beauty 20</p>
               <p className="text-secondary py-2 hovering"> Food (5)</p>
               <p className="text-secondary py-2 hovering"> Life Style(9) </p>
               <p className="text-secondary py-2 hovering"> Travel (10) </p>
-            </div>
+ 
+          </div>
 
-            <div class="d-grid  justify-content-md-start">
-              <h4 className="fw-bolder">Recent News</h4>
-              <div class="d-flex my-3">
+
+
+                        </div>
+                        <div class="blog__sidebar__item">
+                            <h4>Recent News</h4>
+                            <div class="blog__sidebar__recent">
+                              
+                                <div class="d-flex my-3">
                 <img
                   className=""
                   src="https://themewagon.github.io/ogani/img/blog/sidebar/sr-1.jpg"
@@ -46,14 +52,15 @@ const Blog = () => {
                 />
 
                 <div class="mx-3">
-                  <h6 className="fw-bold">
-                    Tips You To Balance
-                    <br /> Nutrition Meal Day
-                  </h6>
+              <h6 className="fw-bold"> 09 Kinds Of Vegetables <br/>
+Protect The Liver
+
+                </h6> 
                   <span className="text-secondary">MAR 05, 2019</span>
                 </div>
               </div>
-
+                               
+                               
               <div class="d-flex my-3">
                 <img
                   className=""
@@ -62,12 +69,11 @@ const Blog = () => {
                 />
 
                 <div class="mx-3">
-              <h6 className="fw-bold">  Tips You To Balance<br /> Nutrition Meal Day
+                <h6 className="fw-bold">  Tips You To Balance<br /> Nutrition Meal Day
                 </h6> 
                   <span className="text-secondary">MAR 05, 2019</span>
                 </div>
               </div>
-
               <div class="d-flex my-3">
                 <img
                   className=""
@@ -80,18 +86,31 @@ const Blog = () => {
                   <span className="text-secondary">MAR 05, 2019</span>
                 </div>
               </div>
-            </div>
-          </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <h4 className="fw-bold mb-3 mt-5 f-ww"> <b> Search By</b></h4>
+                            <div class="">
+                                <button className="mx-2 bg-light border-nonee text-secondary  my-3">Apple </button>
+                                <button  className="mx-2 bg-light border-nonee text-secondary "> Beauty</button>
+                                <button  className="mx-2 bg-light border-nonee text-secondary "> Vegetables</button>  <br/>
 
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-8">
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-              <div class="col">
-                <div class="">
-                  <img src={card1} class="card-img-top" alt="..." />
-                  <div class="card-body my-3">
-                    <p className="text-secondary">
+                                <button className="mx-2 bg-light border-nonee text-secondary ">Fruit</button>
+                                <button className="mx-2 bg-light border-nonee text-secondary ">Healthy Food</button>
+                                <button className="mx-2 bg-light border-nonee text-secondary ">Lifestyle</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-7">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="">
+                                <div class="mb-4">
+                                <img src={card1} class="card-img-top" alt="..." />
+                                </div>
+                                <div class="blog__item__text">
+                                <p className="text-secondary">
                       {" "}
                       <i class="fa fa-calendar-o"></i> May 4,2019 &nbsp; &nbsp;
                       &nbsp; <i class="fa fa-comment-o"></i> 5{" "}
@@ -100,7 +119,7 @@ const Blog = () => {
                       {" "}
                       Cooking tips make cooking simple
                     </h5>
-                    <p class="card-text">
+                    <p class="card-text m-2">
                       Sed quia non numquam modi tempora indunt ut labore et
                       dolore magnam aliquam quaerat
                     </p>
@@ -108,17 +127,19 @@ const Blog = () => {
 
                   <button
                     type="button"
-                    class="btn btn-light border rounded-pill px-5 py-2"
+                    class="btn btn-light border rounded-pill px-5 py-2 mt-3 mb-4"
                   >
-                    READ MORE
+                    READ MORE 
                   </button>
-                </div>
-              </div>
-              <div class="col">
-                <div class="">
-                  <img src={card2} class="card-img-top" alt="..." />
-                  <div class="card-body m-3">
-                    <p className="text-secondary">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="blog__item">
+                                <div class="mb-4">
+                                <img src={card2} class="card-img-top" alt="..." />
+                                </div>
+                                <div class="blog__item__text">
+                                <p className="text-secondary">
                       {" "}
                       <i class="fa fa-calendar-o"></i> May 4,2019 &nbsp; &nbsp;
                       &nbsp; <i class="fa fa-comment-o"></i> 5{" "}
@@ -127,7 +148,7 @@ const Blog = () => {
                       {" "}
                       Cooking tips make cooking simple
                     </h5>
-                    <p class="card-text">
+                    <p class="card-text my-2">
                       Sed quia non numquam modi tempora indunt ut labore et
                       dolore magnam aliquam quaerat
                     </p>
@@ -135,17 +156,19 @@ const Blog = () => {
 
                   <button
                     type="button"
-                    class="btn btn-light border rounded-pill px-5 py-2"
+                    class="btn btn-light border rounded-pill px-5 py-2  mt-3 mb-4"
                   >
                     READ MORE
                   </button>
-                </div>
-              </div>
-              <div class="col">
-                <div class="">
-                  <img src={card3} class="card-img-top" alt="..." />
-                  <div class="card-body my-3">
-                    <p className="text-secondary">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="blog__item">
+                                <div class="mb-4">
+                                <img src={card3} class="card-img-top" alt="..." />
+                                </div>
+                                <div class="blog__item__text">
+                                <p className="text-secondary">
                       {" "}
                       <i class="fa fa-calendar-o"></i> May 4,2019 &nbsp; &nbsp;
                       &nbsp; <i class="fa fa-comment-o"></i> 5{" "}
@@ -154,7 +177,7 @@ const Blog = () => {
                       {" "}
                       Cooking tips make cooking simple
                     </h5>
-                    <p class="card-text">
+                    <p class="card-text my-2">
                       Sed quia non numquam modi tempora indunt ut labore et
                       dolore magnam aliquam quaerat
                     </p>
@@ -162,17 +185,19 @@ const Blog = () => {
 
                   <button
                     type="button"
-                    class="btn btn-light border rounded-pill px-5 py-2"
+                    class="btn btn-light border rounded-pill px-5 py-2  mt-3 mb-4"
                   >
                     READ MORE
                   </button>
-                </div>
-              </div>
-              <div class="col">
-                <div class="">
-                  <img src={card4} class="card-img-top" alt="..." />
-                  <div class="card-body m-3">
-                    <p className="text-secondary">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="blog__item">
+                                <div class="mb-4">
+                                <img src={card4} class="card-img-top" alt="..." />
+                                </div>
+                                <div class="blog__item__text">
+                                <p className="text-secondary">
                       {" "}
                       <i class="fa fa-calendar-o"></i> May 4,2019 &nbsp; &nbsp;
                       &nbsp; <i class="fa fa-comment-o"></i> 5{" "}
@@ -181,7 +206,7 @@ const Blog = () => {
                       {" "}
                       Cooking tips make cooking simple
                     </h5>
-                    <p class="card-text">
+                    <p class="card-text my-2">
                       Sed quia non numquam modi tempora indunt ut labore et
                       dolore magnam aliquam quaerat
                     </p>
@@ -189,17 +214,19 @@ const Blog = () => {
 
                   <button
                     type="button"
-                    class="btn btn-light border rounded-pill px-5 py-2"
+                    class="btn btn-light border rounded-pill px-5 py-2  mt-3 mb-4"
                   >
                     READ MORE
                   </button>
-                </div>
-              </div>
-              <div class="col">
-                <div class="">
-                  <img src={card4} class="card-img-top" alt="..." />
-                  <div class="card-body my-3">
-                    <p className="text-secondary">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="blog__item">
+                                <div class="mb-4">
+                                <img src={card4} class="card-img-top" alt="..." />
+                                </div>
+                                <div class="blog__item__text">
+                                <p className="text-secondary">
                       {" "}
                       <i class="fa fa-calendar-o"></i> May 4,2019 &nbsp; &nbsp;
                       &nbsp; <i class="fa fa-comment-o"></i> 5{" "}
@@ -208,7 +235,7 @@ const Blog = () => {
                       {" "}
                       Cooking tips make cooking simple
                     </h5>
-                    <p class="card-text">
+                    <p class="card-text my-2">
                       Sed quia non numquam modi tempora indunt ut labore et
                       dolore magnam aliquam quaerat
                     </p>
@@ -216,17 +243,19 @@ const Blog = () => {
 
                   <button
                     type="button"
-                    class="btn btn-light border rounded-pill px-5 py-2"
+                    class="btn btn-light border rounded-pill px-5 py-2  mt-3 mb-4"
                   >
                     READ MORE
                   </button>
-                </div>
-              </div>
-              <div class="col">
-                <div class="">
-                  <img src={card6} class="card-img-top" alt="..." />
-                  <div class="card-body my-3">
-                    <p className="text-secondary">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="blog__item">
+                                <div class="mb-4">
+                                <img src={card6} class="card-img-top" alt="..." />
+                                </div>
+                                <div class="blog__item__text">
+                                <p className="text-secondary">
                       {" "}
                       <i class="fa fa-calendar-o"></i> May 4,2019 &nbsp; &nbsp;
                       &nbsp; <i class="fa fa-comment-o"></i> 5{" "}
@@ -235,7 +264,7 @@ const Blog = () => {
                       {" "}
                       Cooking tips make cooking simple
                     </h5>
-                    <p class="card-text">
+                    <p class="card-text my-2">
                       Sed quia non numquam modi tempora indunt ut labore et
                       dolore magnam aliquam quaerat
                     </p>
@@ -243,18 +272,32 @@ const Blog = () => {
 
                   <button
                     type="button"
-                    class="btn btn-light border rounded-pill px-5 py-2"
+                    class="btn btn-light border rounded-pill px-5 py-2  mt-3 mb-4"
                   >
                     READ MORE
                   </button>
+                            </div>
+                       
+                       
+                        </div>
+                    </div>
                 </div>
-              </div>
-              
             </div>
-          </div>
-          
         </div>
-      </div>
+    </section>
+
+
+
+
+
+
+
+
+      
+
+
+
+
     </div>
   );
 };
