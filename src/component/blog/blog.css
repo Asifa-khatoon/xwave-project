@@ -1,0 +1,31 @@
+.bg-image-set {
+  background-image: url("../images/assets/breadcrumb.jpg");
+}
+.blog-btn a {
+  display: inline-block;
+  font-weight: 800;
+}
+
+.fw-set {
+  font-weight: 900 !important;
+}
+.blog-btn a:hover {
+  background: #7fad39;
+  border-color: #7fad39;
+  color: #ffffff;
+}
+.text-spacing {
+  font-size: 18px;
+}
+
+.blog-side form button {
+  background: transparent;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.blogDetail-bg {
+  background-image: url("https://themewagon.github.io/ogani/img/blog/details/details-hero.jpg");
+}

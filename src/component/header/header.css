@@ -1,0 +1,185 @@
+.text-decorationn {
+  text-decoration: none;
+  background: transparent;
+}
+
+.link-decoration  :hover {
+  color: #7fad39 !important;
+}
+
+.set-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.text-decorationn:hover{
+  background-color: #f5f5f5;
+  color: #7fad39;
+  
+}
+
+
+.btn-shop {
+  display: inline-block;
+  font-weight: 700;
+  background: #7fad39;
+  letter-spacing: 2px;
+}
+
+.site-btn {
+  display: inline-block;
+
+  background: #7fad39;
+}
+
+
+
+.header__top {
+  background: #f5f5f5;
+}
+.button-bg{
+  background-color: #7fad39;
+}
+
+.social-icons {
+  display: inline-block;
+}
+
+.languagess {
+  position: relative;
+  display: inline-block;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.languagess:hover ul {
+  top: 23px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.languagess div {
+  display: inline-block;
+}
+
+.languagess span {
+  position: relative;
+  top: 2px;
+}
+
+.languagess ul {
+  background: #222222;
+  width: 100px;
+  text-align: left;
+  padding: 5px 0;
+  position: absolute;
+  left: 0;
+  top: 43px;
+  z-index: 9;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -ms-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+
+.languagess ul li {
+  list-style: none;
+}
+
+.login-icon {
+  display: inline-block;
+}
+
+.header-links ul li {
+  color: #000;
+  list-style: none;
+  display: inline-block;
+  margin-right: 50px;
+  position: relative;
+}
+
+.header-links ul li .header-links__dropdown {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  background: #222222;
+  width: 180px;
+  z-index: 9;
+  padding: 5px 0;
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -ms-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.header-links ul li .header-links__dropdown li {
+  margin-right: 0;
+  display: block;
+}
+
+.header-links ul li .header-links__dropdown li:hover > a {
+  color: #7fad39;
+}
+
+.header-links ul li .header-links__dropdown li a {
+  text-transform: capitalize;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 5px 15px;
+}
+
+.header-links ul li.active a {
+  color: #7fad39;
+}
+
+.header-links ul li:hover .header-links__dropdown {
+  top: 30px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.header-links ul li:hover > a {
+  color: #7fad39;
+}
+
+.header-links ul li:last-child {
+  margin-right: 0;
+}
+
+.header-cart-2 ul {
+  display: inline-block;
+}
+
+.header-cart-2 ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.header-cart-2 ul li a {
+  position: relative;
+}
+
+.header-cart-2 ul li a span {
+  background: #7fad39;
+  font-size: 10px;
+
+  line-height: 13px;
+
+  font-weight: 700;
+  display: inline-block;
+
+  position: absolute;
+  top: 0;
+  right: -12px;
+}
+
+.header-cart-2 .header-cart {
+  display: inline-block;
+}

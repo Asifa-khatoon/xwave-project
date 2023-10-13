@@ -1,65 +1,57 @@
-*{
-   
-        font-family: 'Cairo', sans-serif;
-      
-}
-.text-color{
-    color: #7fad39 !important;
-}
-
-.hovering:hover{
-    color: #7fad39 !important;
-    cursor: pointer;
-
+* {
+  font-family: 'Cairo', sans-serif;
 }
 
 
-
-.bg-colorr{
-    background-color: #7fad39;
-}
-
-.bg-images{
-    background-image: url('./images/banner.jpg');
-}
-.bg-phonee{
-    background-color: #f5f5f5;
-}
-.text-size{
-    font-size: 15px;
-
-}
-
-.pointerr{
-    cursor: pointer;
-}
-.f-ww{
-    font-weight: 600 !important;
-}
-.text-size-2{
-    font-size: 13px;
-
-}
-.border-nonee{
-    border: none;
-}
-
-.image-container {
-    position: relative;
-    display: inline-block;
-  }
-
-  
-  
-  .button-container {
-    position: absolute;
+.button-setting {
     top: 84%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .bg-blog{
-    background-image: url("./images/blogbg.jpg");
+/* 
+  .bgimg1 {
+    background-image: url("./component//images/assets/cat-5.jpg");
   }
   
+ 
+  .bgimg2 {
+    background-image: url("./component//images/assets/feature-2.jpg");
+  }
+  .bgimg3 {
+    background-image: url("./component/images/assets/feature-3.jpg");
+  }
+  .bgimg4 {
+    background-image: url("./component//images/assets/feature-4.jpg");
+  }
+  .bgimg5 {
+    background-image: url("./component//images/assets/feature-5.jpg");
+  }
+  .bgimg6 {
+    background-image: url("./component/images/assets/feature-6.jpg");
+  }
+  .bgimg7 {
+    background-image: url("./component/images/assets/feature-7.jpg");
+  }
+  .bgimg8 {
+    background-image: url("./component//images/assets/feature-8.jpg");
+  }
+   */
   
-
+  input:focus,
+  select:focus,
+  button:focus,
+  textarea:focus {
+    outline: none;
+  }
+  
+  a:hover,
+  a:focus {
+    text-decoration: none;
+    outline: none;
+    color: #ffffff;
+  }
+  a {
+    text-decoration: none !important;
+  }
+  
+ 
