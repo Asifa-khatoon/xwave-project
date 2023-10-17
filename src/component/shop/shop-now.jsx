@@ -133,12 +133,12 @@ const ShopNow = () => {
             <div class="row">
               <div class="col-lg-6 col-md-6 col-sm-6"></div>
               <div className="my-5">
-                <img
+                {/* <img
                   className="mt-5 w-100"
                   src="https://themewagon.github.io/ogani/img/blog/details/details-pic.jpg"
                   alt=""
-                />
-                <h5 className="text-secondary py-3">
+                /> */}
+                {/* <h5 className="text-secondary py-3">
                   {" "}
                   Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam
                   vehicula elementum sed sit amet dui. Curabitur non nulla sit
@@ -160,18 +160,18 @@ const ShopNow = () => {
                     The corner window forms a place within a place that is a
                     resting point within the large space.{" "}
                   </b>
-                </h4>
-                <p className="text-secondary py-3 text-spacing ">
+                </h4> */}
+                {/* <p className="text-secondary py-3 text-spacing ">
                  
                   The study area is located at the back with a view of the vast
                   nature. Together with the other buildings, a congruent story
                   has been managed in which the whole has a reinforcing effect
                   on the components. The use of materials seeks connection to
                   the main house, the adjacent stables
-                </p>
+                </p> */}
               </div>
 
-              <div class="">
+              {/* <div class="">
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="d-flex">
@@ -202,7 +202,7 @@ const ShopNow = () => {
                             </div>
                         </div>
                     </div>
-                 
+                  */}
             </div>
           
           </div>

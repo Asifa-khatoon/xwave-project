@@ -32,7 +32,7 @@ const FeaturedProduct = () => {
             </div>
           </div>
         </div>
-        <div className="row featured__filter">
+        <div className="row r">
           {imageUrls.map((imageUrl, index) => (
             <div
               className="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat"

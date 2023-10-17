@@ -6,8 +6,8 @@ const Blog = () => (
     <div className="bg-image-set py-3 my-5 ">
       <h1 className="fw-set fw-bolder text-white text-center"> Blog</h1>
       <h5 className="fw-bold text-center text-white pb-4">
-        {" "}
-        Home- <span className=""> Blog</span>{" "}
+       
+        Home- <span className=""> Blog</span>
       </h5>
     </div>
 
@@ -136,7 +136,7 @@ const Blog = () => (
                       alt="..."
                     />
                   </div>
-                  <div class="blog__item__text">
+                  <div class="">
                     <p className="text-secondary">
                       {" "}
                       <i class="fa fa-calendar-o"></i> May 4,2019 &nbsp; &nbsp;
@@ -154,7 +154,7 @@ const Blog = () => (
 
                   <button
                     type="button"
-                    class="btn btn-light border rounded-pill px-3 py-2 my-2"
+                    class="btn btn-light border rounded-pill px-3 py-2 mt-3"
                   >
                     READ MORE <i class="fa fa-long-arrow-right px-2"></i>
                   </button>
@@ -324,7 +324,10 @@ const Blog = () => (
                   </button>
                 </div>
               </div>
-              <div class="col-lg-12">
+              <div className="my-2"> 
+              <hr />
+              </div>
+              <div class="col-lg-12 my-2">
                 <div class="blog-btn-2 blog-btn">
                   <a
                     href="#"

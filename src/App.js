@@ -19,6 +19,7 @@ import ContactDetails from "./component/contact/contact";
 import CheckOutPage from "./component/check-out-page/check-out";
 import BlogDetails from "./component/footer/blog-detailss/blog-detail";
 import ShopDetsils from "./component/shopping-detailss/shop-details";
+import Carts from "./component/shopping-cart/carts";
 
 function App() {
   let router = createBrowserRouter([
@@ -69,11 +70,15 @@ function App() {
               path: "/shopping-detailss",
             element: <ShopDetsils/>
             },
+            {
+              path: "/shopping-cart",
+            element: <Carts/>
+            },
             
 
 
             
-       
+            
       ],
 
       // path: "/",

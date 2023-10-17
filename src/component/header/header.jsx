@@ -60,15 +60,16 @@ const Header = () => {
     <>
       <header className="header">
         <div className="header__top">
-          <div className="container">
+          <div className="container-fluid">
             <div className="row">
               <div className="col-lg-6 col-md-6">
-                <div className="header__top__left mx-3 pt-3">
-                  <ul className="d-flex">
-                    <p>
+                <div className="">
+                  <ul className="d-flex pt-2 ">
+                    <p className='border-end px-3 '>
                       <i className="fa fa-envelope"></i> hello@colorlib.com
                     </p>
-                    <p>Free Shipping for all Order of $99</p>
+                    <vr/>
+                    <p className='px-3'>Free Shipping for all Order of $99</p>
                   </ul>
                 </div>
               </div>
@@ -144,7 +145,7 @@ const Header = () => {
                         <Link to="/shopping-detailss">Shop Details </Link>
                       </li>
                       <li className=" nav-link">
-                        <Link to="">Shoping Cart</Link>
+                        <Link to="/shopping-cart">Shoping Cart</Link>
                       </li>
                       <li className="nav-link">
                         <Link to="./check-out-page">Check Out</Link>

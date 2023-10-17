@@ -6,6 +6,7 @@ import FeaturedProduct from "./Featured-products/featured-productss";
 import './home.css'
 import TheBlog from "../the-blog";
 import AuthModal from "../sign-up/sign-log-in";
+import MyComponent from "../sign-up/sign-log-in";
 
 
 
@@ -81,6 +82,7 @@ const Home =()=>{
 <AuthModal/>
 
 <TheBlog/>
+<MyComponent/>
 
 
    
