@@ -2,8 +2,21 @@
 .bgimg1 {
     background-image: url("../../images/assets/cat-5.jpg");
   }
-  
  
+
+ul.fs-4 li {
+ 
+  cursor: pointer;
+  color: #333; 
+
+}
+
+ul.fs-4 li.active {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #7fad39;
+}
+
   .bgimg2 {
     background-image: url("../../images/assets/feature-2.jpg");
   }

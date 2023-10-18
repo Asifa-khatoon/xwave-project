@@ -7,6 +7,7 @@ import './home.css'
 import TheBlog from "../the-blog";
 import AuthModal from "../sign-up/sign-log-in";
 import MyComponent from "../sign-up/sign-log-in";
+import { Link } from "react-router-dom";
 
 
 
@@ -79,10 +80,13 @@ const Home =()=>{
 <Slider />
 <FeaturedProduct/>
 
-<AuthModal/>
+
+
+
 
 <TheBlog/>
-<MyComponent/>
+
+
 
 
    

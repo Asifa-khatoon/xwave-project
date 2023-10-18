@@ -99,3 +99,45 @@ const Slider = () => {
 };
 
 export default Slider;
+
+
+// <SwiperSlide classNameName='swiper-slide position-relative'>
+        
+// <div class=" " >
+// <img src={cart1} alt="" />
+//                     <h5><a href="#">Fresh Fruit</a></h5>
+//                     <button
+//           className="btn btn-primary image-button"
+        
+//         >
+//           </button>
+//                 </div>
+// </SwiperSlide>
+// <SwiperSlide classNameName='swiper-slide '>
+
+//     <div class="" >
+//     <img src={cart2} alt="" />
+//                     <h5><a href="#">Dried Fruit</a></h5>
+//                 </div>
+// </SwiperSlide>
+// <SwiperSlide classNameName='swiper-slide '>
+// <img src={cart3} alt="" />
+
+//     <div class="" >
+//                     <h5><a href="#">Vegetables</a></h5>
+//                 </div>
+// </SwiperSlide>
+// <SwiperSlide classNameName='swiper-slide '>
+
+//     <div class="" >
+//       <img src={cart4} alt="" />
+//                     <h5><a href="#">drink fruits</a></h5>
+//                 </div>
+// </SwiperSlide>
+// <SwiperSlide classNameName='swiper-slide '>
+
+//     <div class="" >
+//     <img src={cart5} alt="" />
+//                     <h5><a href="#">drink fruits</a></h5>
+//                 </div>
+// </SwiperSlide>
