@@ -104,7 +104,7 @@ const CheckOutPage = () => {
                                 <label for="accounts">
                                   
                                     <input type="checkbox" id="accounts"/>
-                                    <span class=" mx-4">   Ship to a different address?</span>
+                                    <span class=" mx-4 form-check-input">   Ship to a different address?</span>
                                 </label>
                             </div>
                             <div className='pt-3 mb-5'>

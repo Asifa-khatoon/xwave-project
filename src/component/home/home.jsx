@@ -8,6 +8,7 @@ import TheBlog from "../the-blog";
 import AuthModal from "../sign-up/sign-log-in";
 import MyComponent from "../sign-up/sign-log-in";
 import { Link } from "react-router-dom";
+import ThreeSliders from "./Featured-products/Three-sliders";
 
 
 
@@ -82,7 +83,7 @@ const Home =()=>{
 
 
 
-
+<ThreeSliders/>
 
 <TheBlog/>
 

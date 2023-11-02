@@ -4,6 +4,24 @@
   }
  
 
+/* Your external CSS file */
+.swiper-slide {
+  position: relative;
+}
+
+.swiper-slide button {
+  position: absolute;
+  bottom: 20px; 
+  left: 50%;
+  transform: translateX(-50%);
+ 
+  width: 80%; 
+
+ 
+
+}
+
+
 ul.fs-4 li {
  
   cursor: pointer;

@@ -2,8 +2,17 @@
 
 import React from "react";
 import '../blog/blog.css'
+import { useState } from "react";
 
 const ShopNow = () => {
+
+  const [sliderValue, setSliderValue] = useState(50); // Initial value for the slider
+
+  const handleSliderChange = (event) => {
+    setSliderValue(event.target.value);
+  }
+
+
 
   
 
@@ -45,7 +54,7 @@ const ShopNow = () => {
        
    
               </div>
-              <div class="f-ww">
+              {/* <div class="f-ww">
                 <h4 className="f-ww fw-bold">Recent News</h4>
                 <div class="">
                   <div class="d-flex my-3">
@@ -97,7 +106,22 @@ const ShopNow = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
+  <div>
+      <input
+        type="range"
+        min="0"
+        max="200"
+        value={sliderValue}
+        onChange={handleSliderChange}
+        className="bg-danger"
+      />
+      <p className="text-danger fw-bold">Slider Value: {sliderValue}</p>
+    </div>
+                <div className=""> 
+
+    <button  className="bg-info rounded-pill p-2 "> </button> <span className=""> white</span>    
+    </div>          
               <div class="">
                 <h4 className="fw-bold mb-3 mt-5 f-ww">
                   {" "}
@@ -133,76 +157,7 @@ const ShopNow = () => {
             <div class="row">
               <div class="col-lg-6 col-md-6 col-sm-6"></div>
               <div className="my-5">
-                {/* <img
-                  className="mt-5 w-100"
-                  src="https://themewagon.github.io/ogani/img/blog/details/details-pic.jpg"
-                  alt=""
-                /> */}
-                {/* <h5 className="text-secondary py-3">
-                  {" "}
-                  Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam
-                  vehicula elementum sed sit amet dui. Curabitur non nulla sit
-                  amet nisl tempus convallis quis ac lectus. Mauris blandit
-                  aliquet elit, eget tincidunt nibh pulvinar a. Vivamus magna
-                  justo, lacinia eget consectetur sed, convallis at tellus. Sed
-                  porttitor lectus nibh. Donec sollicitudin molestie malesuada.
-                  Curabitur non nulla sit amet nisl tempus convallis quis ac
-                  lectus. Proin eget tortor risus. Donec rutrum congue leo eget
-                  malesuada. Curabitur non nulla sit amet nisl tempus convallis
-                  quis ac lectus. Donec sollicitudin molestie malesuada. Nulla
-                  quis lorem ut libero malesuada feugiat. Curabitur arcu erat,
-                  accumsan id imperdiet et, porttitor at sem.
-                </h5>
-                <h4 className="fw-bold">
-                  {" "}
-                  <b>
-                    {" "}
-                    The corner window forms a place within a place that is a
-                    resting point within the large space.{" "}
-                  </b>
-                </h4> */}
-                {/* <p className="text-secondary py-3 text-spacing ">
-                 
-                  The study area is located at the back with a view of the vast
-                  nature. Together with the other buildings, a congruent story
-                  has been managed in which the whole has a reinforcing effect
-                  on the components. The use of materials seeks connection to
-                  the main house, the adjacent stables
-                </p> */}
-              </div>
-
-              {/* <div class="">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="d-flex">
-                                    <div class="">
-                                        <img className="rounded-pill" src="https://themewagon.github.io/ogani/img/blog/details/details-author.jpg" alt=""/>
-                                    </div>
-                                    <div class="px-2  pt-4">
-                                        <h6 className=" mb-0 fw-bold">Michael Scofield</h6>
-                                        <span className="">Admin</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="">
-                                   
-                                         <p className="mb-0"><span className="fw-bold"> <b> Categories: </b></span> Food</p>
-                                        <h6><span className="fw-bold"> <b> Tags: </b></span> All, Trending, Cooking, Healthy Food, Life Style</h6>
-                                   
-                                    <div class="">
-                                       <h4>  <a href="#"><i class="fa fa-facebook text-secondary  "></i></a> 
-                                        <a href="#"><i class="fa fa-twitter  text-secondary px-3"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus  text-secondary px-3"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin  text-secondary px-3"></i></a>
-                                        <a href="#"><i class="fa fa-envelope  text-secondary px-3"></i></a>
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  */}
+               </div>
             </div>
           
           </div>

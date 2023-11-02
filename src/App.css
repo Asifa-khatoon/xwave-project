@@ -4,39 +4,11 @@
 
 
 .button-setting {
-    top: 84%;
+    top: 99%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-0%);
   }
-/* 
-  .bgimg1 {
-    background-image: url("./component//images/assets/cat-5.jpg");
-  }
-  
  
-  .bgimg2 {
-    background-image: url("./component//images/assets/feature-2.jpg");
-  }
-  .bgimg3 {
-    background-image: url("./component/images/assets/feature-3.jpg");
-  }
-  .bgimg4 {
-    background-image: url("./component//images/assets/feature-4.jpg");
-  }
-  .bgimg5 {
-    background-image: url("./component//images/assets/feature-5.jpg");
-  }
-  .bgimg6 {
-    background-image: url("./component/images/assets/feature-6.jpg");
-  }
-  .bgimg7 {
-    background-image: url("./component/images/assets/feature-7.jpg");
-  }
-  .bgimg8 {
-    background-image: url("./component//images/assets/feature-8.jpg");
-  }
-   */
-  
   input:focus,
   select:focus,
   button:focus,
