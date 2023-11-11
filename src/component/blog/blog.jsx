@@ -24,7 +24,7 @@ const Blog = () => (
                     placeholder="Search..."
                   />
                   <button className="" type="submit">
-                    <span class="fa fa-search button-setting"></span>
+                    {/* <span class="fa fa-search button-setting"></span> */}
                   </button>
                 </form>
               </div>

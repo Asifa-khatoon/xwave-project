@@ -30,7 +30,7 @@ const ShopDetsils = () => {
 
   return (
     <div>
-        <div className='shopping-bg  pt-5 my-3 mb-5 '>
+        <div className='shopping-bg w-100  pt-5 my-3 mb-5 '>
 
 <h1 className='fw-set fw-bold text-white text-center'> Vegetable’s Package </h1>
 <p className='text-center pb-4 '> 
@@ -46,7 +46,7 @@ const ShopDetsils = () => {
                 <div class="col-lg-6 col-md-6">
                     <div class="">
                         <div class="">
-                            <img class=""
+                            <img class="w-100"
                                 src="https://themewagon.github.io/ogani/img/product/details/product-details-1.jpg" alt=""/>
                         </div>
                         <div className=''>

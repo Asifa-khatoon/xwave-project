@@ -115,8 +115,8 @@ const CheckOutPage = () => {
                         </div>
 
                         {/* card section */}
-                        <div class="col-lg-4 col-md-6">
-                            <div class="bg-colorr container py-5 px-5 mx-3 ">
+                        <div class="col-lg-4 col-md-6  ">
+                            <div class="bg-colorr container py-5 px-5  ">
                                 <h4 className='border-bottom'> <b> Your Order </b></h4>
                                 <div class="d-flex justify-content-between fw-bold">Products <span>Total</span> </div>
                               

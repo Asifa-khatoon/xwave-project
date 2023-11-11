@@ -17,7 +17,7 @@ const categoryToDisplay = {
   ".oranges": [5, 7, 3, 4], // Display images 1, 3, and 4 for "Oranges"
   ".fresh-meat": [1, 6], // Display images 3, 6, and 2 for "Fresh Meat"
   ".vegetables": [2, 3, 5, 7], // Display images 2, 3, 5, and 7 for "Vegetables"
-  ".fastfood": [2, 6, 7, 8], // Display images 2, 6, 7, and 8 for "Fastfood"
+  ".fastfood": [6, 2, 7, 8], // Display images 2, 6, 7, and 8 for "Fastfood"
 };
 
 const FeaturedProduct = () => {
