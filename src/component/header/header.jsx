@@ -68,227 +68,72 @@ const Header = () => {
 
   return (
     <>
+      <nav>
+        <div class="bg-light">
+          <div class="container">
+            <header class="d-flex flex-wrap justify-content-center pt-2 ">
+              <a
+                href="/"
+                class="d-flex align-items-center mb-md-0 me-md-auto text-dark text-decoration-none"
+              >
+                <p className="border-end  d-flex  ">
+                  <i className="fa fa-envelope px-1 pt-1"></i>{" "}
+                  hello@colorlib.com
+                  <span className="px-3 d-flex">
+                    Free Shipping for all Order of $99
+                  </span>
+                </p>
+              </a>
 
-      <nav
-        class="navbar navbar-expand-lg navbar-light bg-light"
-        aria-label="Offcanvas navbar large"
-      >
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            
-        
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar2"
-            aria-controls="offcanvasNavbar2"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end text-bg-light"
-            tabindex="-1"
-            id="offcanvasNavbar2"
-            aria-labelledby="offcanvasNavbar2Label"
-          >
-
-
-            <div class="offcanvas-header">
-           
-            
-              
-              <h5 class="offcanvas-title" id="offcanvasNavbar2Label">
-              <button
-                type="button"
-                class="btn-close btn-close-dark d-flex justify-content-end"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-           
-              <div className="container">
-          <div className="row">
-            <div className="col-lg-3">
-              <div className="header__logo">
-                <a href="./index.html">
-                  <img className="pt-2" src={logooo} alt="" />
+              <ul class="nav nav-pills">
+                <a className="text-black px-2" href="#">
+                  <i className="fa fa-facebook"></i>
                 </a>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <nav className="header-links d-flex pt-4">
-                <ul>
-                  <li className="active nav-link">
-                    <Link to="/" className=" fw-bold">
-                      Home
-                    </Link>
-                  </li>
-
-                  <li className=" nav-link">
-                    <Link
-                      to="/shop"
-                      className="link-decoration text-black fw-bold"
-                    >
-                      Shop
-                    </Link>
-                  </li>
-                  <li className=" nav-link">
-                    <a className="link-decoration text-black fw-bold" href="#">
-                      Pages
-                    </a>
-                    <ul className="header-links__dropdown">
-                      <li className=" nav-link">
-                        <Link to="/shopping-detailss">Shop Details </Link>
-                      </li>
-                      <li className=" nav-link">
-                        <Link to="/shopping-cart">Shoping Cart</Link>
-                      </li>
-                      <li className="nav-link">
-                        <Link to="./check-out-page">Check Out</Link>
-                      </li>
-
-                      <li className="nav-link">
-                        <Link to="./blog-detailss">Blog Details</Link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="nav-link">
-                    <Link
-                      className="link-decoration text-black fw-bold"
-                      to="/blog"
-                    >
-                      Blog
-                    </Link>
-                  </li>
-
-                  <li className="nav-link">
-                    <Link
-                      className="link-decoration text-black fw-bold"
-                      to="/contact"
-                    >
-                      Contact
-                    </Link>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-            <div className="col-lg-3 text-center">
-              <div className="header-cart-2 pt-4">
-                <ul>
-                  <li>
-                    <a className="mx-1 text-center" href="# ">
-                      <i className="fa fa-heart text-black"></i>{" "}
-                      <span className="text-white px-1 rounded-pill">1</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a className="mx-3 text-center" href="#">
-                      <i className="fa fa-shopping-bag text-black"></i>{" "}
-                      <span className="text-white px-1 rounded-pill">3</span>
-                    </a>
-                  </li>
-                </ul>
-                <div className="header-cart text-black">
-                  item: <span className="fw-bold">$150.00</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-              </h5>
-             
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              
-              <div className="container-fluid">
-            <div className="">
-              <div className="">
-                <div className="">
-                  <ul className="d-flex pt-2 ">
-                    <p className="border-end  d-flex  ">
-                      <i className="fa fa-envelope px-1 pt-1"></i> hello@colorlib.com
-                      <span className="px-3 d-flex">Free Shipping for all Order of $99</span>
-                    </p>
-                    
-                   
-                   
+                <a className="text-black px-2" href="#">
+                  <i className="fa fa-twitter"></i>
+                </a>
+                <a className="text-black px-2" href="#">
+                  <i className="fa fa-linkedin"></i>
+                </a>
+                <a className="text-black px-3" href="#">
+                  <i className="fa fa-pinterest-p"></i>
+                </a>
+                <div className="languagess px-1">
+                  <img src={flage} alt="" />
+                  <div className="">English</div>
+                  <span className="arrow_carrot-down"></span>
+                  <ul>
+                    <li>
+                      <a className="text-white px-3" href="#">
+                        Spanis
+                      </a>
+                    </li>
+                    <li className="mx-2">
+                      <a className="text-white " href="#">
+                        English
+                      </a>
+                    </li>
                   </ul>
                 </div>
-              </div>
-             
-            </div>
-          </div>
-              <div className="col-lg-4 col-4  ">
-                <div className="nabar-top-right p text-center">
-                  <div className="social-icons position-relative mx-3">
-                    <a className="text-black px-2" href="#">
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                    <a className="text-black px-2" href="#">
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                    <a className="text-black px-2" href="#">
-                      <i className="fa fa-linkedin"></i>
-                    </a>
-                    <a className="text-black px-3" href="#">
-                      <i className="fa fa-pinterest-p"></i>
-                    </a>
-                    <div className="languagess px-1">
-                    <img src={flage} alt="" />
-                    <div className="">English</div>
-                    <span className="arrow_carrot-down"></span>
-                    <ul>
-                      <li>
-                        <a className="text-white px-3" href="#">
-                          Spanis
-                        </a>
-                      </li>
-                      <li className="mx-2">
-                        <a className="text-white " href="#">
-                          English
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="login-icon ">
-                    <a href="#">
-                      <Button
-                        variant="success"
-                        className="text-decorationn border-0 text-black"
-                        onClick={() => setShowModal(true)}
-                      >
-                        <i className="fa fa-user"></i> Login
-                      </Button>
-                    </a>
-                  </div>
-                  </div>
-                 
+                <div className="login-icon ">
+                  <a href="#">
+                    <Button
+                      variant="success"
+                      className="text-decorationn border-0 text-black"
+                      onClick={() => setShowModal(true)}
+                    >
+                      <i className="fa fa-user"></i> Login
+                    </Button>
+                  </a>
                 </div>
-              
-              </div>
-             
-             
-              
               </ul>
-              
-             
-             
-            </div>
+            </header>
           </div>
         </div>
-              </nav>
-
-
-
-
-
+      </nav>
 
       <header className="header">
-        <div className="">
-        
-        </div>
+        <div className=""></div>
         <div className="container">
           <div className="row">
             <div className="col-lg-3">

@@ -18,14 +18,14 @@ const TheBlog = () => {
       imageSrc: 'https://themewagon.github.io/ogani/img/blog/blog-2.jpg',
       date: 'May 4, 2019',
       comments: 5,
-      title: 'Cooking tips make cooking simple',
+      title: '6 ways to prepare breakfast for 30',
       content: 'Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat',
     },
     {
       imageSrc: 'https://themewagon.github.io/ogani/img/blog/blog-3.jpg',
       date: 'May 4, 2019',
       comments: 5,
-      title: 'Cooking tips make cooking simple',
+      title: 'Visit the clean farm in the US',
       content: 'Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat',
     },
   ];

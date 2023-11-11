@@ -5,12 +5,7 @@
     cursor: pointer;
   }
  
-  
-  .hero-categories :after {
-    position: absolute;
-    right: 18px;
-    top: 9px;
-  }
+
   
   .hero__categories ul li {
     list-style: none;
@@ -40,16 +35,6 @@
     position: relative;
   }
   
-  .search-formm form .search-categoriess:after {
-    position: absolute;
-    right: 0;
-    top: 14px;
-    height: 20px;
-    width: 1px;
-    background: #000000;
-    opacity: 0.1;
-    content: "";
-  }
   
   .search-formm form .search-categoriess span {
     position: absolute;

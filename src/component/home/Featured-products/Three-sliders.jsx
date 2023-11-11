@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, EffectFade, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 
 
@@ -9,7 +9,7 @@ const HomeCarousel =()=>{
     return(
         <>
         <div className="container">
-            <div className="row ">
+            <div className="row mt-5 ">
                 <div className="col-md-4">
                     <h3 className="fw-bold">Latest Products</h3>
                 <Swiper
@@ -48,7 +48,7 @@ const HomeCarousel =()=>{
         </div>
         </SwiperSlide>
     <SwiperSlide classNameName='swiper-slide'>
-        <div className="row">
+        <div className="row mt-4">
             <div className="col-md-4 "><img  src="https://themewagon.github.io/ogani/img/latest-product/lp-1.jpg" className="img-fluid" alt="image" /></div>
             <div className="col-md-8 my-3">
                 <p>Crab Pool security</p>

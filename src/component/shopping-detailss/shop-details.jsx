@@ -111,8 +111,7 @@ const ShopDetsils = () => {
                                
                             </div>
                         </div>
-                        <a href="#" class="primary-btn">ADD TO CARD</a>
-                        <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
+                       
                        
                         <p><b>Availability</b> <span className='px-4 mx-4'>In Stock</span></p>
                             <p><b>Shipping</b> <span  className='px-3 mx-5'>01 day shipping. <samp className='text-danger'>Free pickup today</samp></span></p>

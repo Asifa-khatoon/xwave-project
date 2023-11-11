@@ -5,8 +5,7 @@ import Slider from "./products/Product-slider";
 import FeaturedProduct from "./Featured-products/featured-productss";
 import './home.css'
 import TheBlog from "../the-blog";
-import AuthModal from "../sign-up/sign-log-in";
-import MyComponent from "../sign-up/sign-log-in";
+
 import { Link } from "react-router-dom";
 import ThreeSliders from "./Featured-products/Three-sliders";
 

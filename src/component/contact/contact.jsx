@@ -6,12 +6,12 @@ const contactData = [
   {
     iconClass: "fa fa-phone icon-color",
     title: "Phone",
-    text: "+01-3-8888-6868",
+    text: "+923047584802",
   },
   {
     iconClass: "fa fa-map-marker icon-color",
-    title: "Address",
-    text: "60-49 Road 11378 New York",
+    title: "Location",
+    text: "Pakistan",
   },
   {
     iconClass: "fa fa-clock-o icon-color",
@@ -21,7 +21,7 @@ const contactData = [
   {
     iconClass: "fa fa-envelope icon-color",
     title: "Email",
-    text: "hello@colorlib.com",
+    text: "asifaakhatonn@gmail.com",
   },
 ];
 
@@ -33,9 +33,9 @@ const ContactDetails = () => {
     <div>
       <div className="bg-image-set py-3 pt-4">
         <h1 className="fw-set fw-bold text-white text-center">Contact Us</h1>
-        <h5 className="fw-bold text-center text-white pb-4">
+        {/* <h5 className="fw-bold text-center text-white pb-4">
           Home- <span className=""> Contact us</span>{" "}
-        </h5>
+        </h5> */}
       </div>
 
       <div className="container text-center my-5">

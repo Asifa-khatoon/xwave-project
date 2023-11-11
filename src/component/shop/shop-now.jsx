@@ -1,6 +1,8 @@
 
-
 import React from "react";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+
 import '../blog/blog.css'
 import { useState } from "react";
 
@@ -118,10 +120,10 @@ const ShopNow = () => {
       />
       <p className="text-danger fw-bold">Slider Value: {sliderValue}</p>
     </div>
-                <div className=""> 
+                {/* <div className=""> 
 
     <button  className="bg-info rounded-pill p-2 "> </button> <span className=""> white</span>    
-    </div>          
+    </div>           */}
               <div class="">
                 <h4 className="fw-bold mb-3 mt-5 f-ww">
                   {" "}
@@ -152,11 +154,71 @@ const ShopNow = () => {
                 </div>
               </div>
             </div>
+            <Swiper
+        slidesPerView={1}
+        spaceBetween={30} 
+        autoplay={{
+            delay: 3000,
+            disableOnInteraction: true,
+          }}
+       
+        modules={[Pagination, Autoplay, Navigation]}
+        className="mySwiper "
+      >
+               
+    <SwiperSlide classNameName='swiper-slide'>
+        <div className="row my-4">
+                        <div className="col-md-4"><img  src="https://themewagon.github.io/ogani/img/latest-product/lp-1.jpg" className="img-fluid" alt="image" /></div>
+            <div className="col-md-8 my-3">
+                <p>Crab Pool security</p>
+                <h4><b>$30.00</b></h4>
+                </div>
+        </div>
+        <div className="row mt-3">
+            <div className="col-md-4 "><img  src="https://themewagon.github.io/ogani/img/latest-product/lp-2.jpg" className="img-fluid" alt="image" /></div>
+            <div className="col-md-8 my-3">
+                <p>Crab Pool security</p>
+                <h4><b>$30.00</b></h4>
+                </div>
+        </div>
+        <div className="row mt-3">
+            <div className="col-md-4 "><img  src="https://themewagon.github.io/ogani/img/latest-product/lp-3.jpg" className="img-fluid" alt="image" /></div>
+            <div className="col-md-8 my-3">
+                <p>Crab Pool security</p>
+                <h4><b>$30.00</b></h4>
+                </div>
+        </div>
+        </SwiperSlide>
+    <SwiperSlide classNameName='swiper-slide'>
+        <div className="row mt-4">
+            <div className="col-md-4 "><img  src="https://themewagon.github.io/ogani/img/latest-product/lp-1.jpg" className="img-fluid" alt="image" /></div>
+            <div className="col-md-8 my-3">
+                <p>Crab Pool security</p>
+                <h4><b>$30.00</b></h4>
+                </div>
+        </div>
+        <div className="row mt-3">
+            <div className="col-md-4 "><img  src="https://themewagon.github.io/ogani/img/latest-product/lp-2.jpg" className="img-fluid" alt="image" /></div>
+            <div className="col-md-8 my-3">
+                <p>Crab Pool security</p>
+                <h4><b>$30.00</b></h4>
+                </div>
+        </div>
+        <div className="row mt-3">
+            <div className="col-md-4 "><img  src="https://themewagon.github.io/ogani/img/latest-product/lp-3.jpg" className="img-fluid" alt="image" /></div>
+            <div className="col-md-8 my-3">
+                <p>Crab Pool security</p>
+                <h4><b>$30.00</b></h4>
+                </div>
+        </div>
+        </SwiperSlide>
+      </Swiper>
           </div>
           <div class="col-lg-8 col-md-7">
             <div class="row">
               <div class="col-lg-6 col-md-6 col-sm-6"></div>
               <div className="my-5">
+            
                </div>
             </div>
           

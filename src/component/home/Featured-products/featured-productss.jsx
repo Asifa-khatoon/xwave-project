@@ -72,7 +72,7 @@ const FeaturedProduct = () => {
         <div className="row ">
           {numImagesToDisplay.map((imageNumber) => (
             <div
-              className={`col-lg-3 col-md-4 col-sm-6 mix ${selectedCategory.substr(1)}`}
+              className={`col-lg-3 col-md-4 col-sm-6 mix ${selectedCategory}`}
               key={imageNumber}
             >
               <div className="items">

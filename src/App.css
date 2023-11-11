@@ -25,5 +25,10 @@
   a {
     text-decoration: none !important;
   }
+
+.btn-responsive-width {
+  max-width: 65%; 
+}
+
   
  
