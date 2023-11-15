@@ -2,6 +2,12 @@
 import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import "swiper/css/navigation";
+import cart1 from "../images/assets/cat-1.jpg";
+import cart2 from "../images/assets/cat-2.jpg";
+import cart3 from "../images/assets/cat-3.jpg";
+import cart4 from "../images/assets/cat-4.jpg";
+import cart5 from "../images/assets/cat-5.jpg";
 
 import '../blog/blog.css'
 import { useState } from "react";
@@ -34,8 +40,9 @@ const ShopNow = () => {
 
     <section class="blog spad">
       <div class="container">
+        <div className="col-md-12"> 
         <div class="row">
-          <div class="col-lg-4 col-md-5 ">
+          <div class="col-md-3 ">
             <div class="">
           
              
@@ -56,59 +63,6 @@ const ShopNow = () => {
        
    
               </div>
-              {/* <div class="f-ww">
-                <h4 className="f-ww fw-bold">Recent News</h4>
-                <div class="">
-                  <div class="d-flex my-3">
-                    <img
-                      className=""
-                      src="https://themewagon.github.io/ogani/img/blog/sidebar/sr-3.jpg"
-                      alt="image"
-                    />
-
-                    <div class="mx-3">
-                      <h6 className="fw-bold">
-                        {" "}
-                        09 Kinds Of Vegetables <br />
-                        Protect The Liver
-                      </h6>
-                      <span className="text-secondary">MAR 05, 2019</span>
-                    </div>
-                  </div>
-
-                  <div class="d-flex my-3">
-                    <img
-                      className=""
-                      src="https://themewagon.github.io/ogani/img/blog/sidebar/sr-2.jpg"
-                      alt="image"
-                    />
-
-                    <div class="mx-3">
-                      <h6 className="fw-bold">
-                        {" "}
-                        Tips You To Balance
-                        <br /> Nutrition Meal Day
-                      </h6>
-                      <span className="text-secondary">MAR 05, 2019</span>
-                    </div>
-                  </div>
-                  <div class="d-flex my-3">
-                    <img
-                      className=""
-                      src="https://themewagon.github.io/ogani/img/blog/sidebar/sr-1.jpg"
-                      alt="image"
-                    />
-
-                    <div class="mx-3">
-                      <h6 className="fw-bold">
-                        4 Principles Help You Lose <br />
-                        Weight With Vegetables
-                      </h6>
-                      <span className="text-secondary">MAR 05, 2019</span>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
   <div>
       <input
         type="range"
@@ -120,10 +74,8 @@ const ShopNow = () => {
       />
       <p className="text-danger fw-bold">Slider Value: {sliderValue}</p>
     </div>
-                {/* <div className=""> 
-
-    <button  className="bg-info rounded-pill p-2 "> </button> <span className=""> white</span>    
-    </div>           */}
+               
+    
               <div class="">
                 <h4 className="fw-bold mb-3 mt-5 f-ww">
                   {" "}
@@ -214,17 +166,81 @@ const ShopNow = () => {
         </SwiperSlide>
       </Swiper>
           </div>
-          <div class="col-lg-8 col-md-7">
+          <div class=" col-md-9">
             <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6"></div>
-              <div className="my-5">
+             
+
+
+              <Swiper
+        slidesPerView={1}
+        spaceBetween={30}
+        grabCursor={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        Navigation={{
+          clickable: true,
+        }}
+        modules={[Autoplay, Navigation]}
+        className="mySwiper"
+        breakpoints={{
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
+        }}
+      >
+        <SwiperSlide className="swiper-slide position-relative ">
+          <div className="d-flex flex-column align-items-center justify-content-center">
+            <img className="w-100" src={cart1} alt="" />
+            <button className="border-0 fw-bold py-1  bg-light bn5 btn-responsive-width">
+              FRESH FRUITS
+            </button>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide position-relative">
+          <div className="d-flex flex-column align-items-center justify-content-center">
+            <img className="w-100" src={cart2} alt="" />
+            <button className="border-0 fw-bold py-1 bg-light bn5 btn-responsive-width">
+              DRIED FRUITS
+            </button>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide position-relative ">
+          <div className="d-flex flex-column align-items-center justify-content-center">
+            <img className="w-100" src={cart3} alt="" />
+            <button className="border-0 fw-bold py-1 bg-light bn5 btn-responsive-width">
+              VEGETABLES
+            </button>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide position-relative">
+          <div className="d-flex flex-column align-items-center justify-content-center">
+            <img className="w-100" src={cart4} alt="" />
+            <button className="border-0 fw-bold py-1 bg-light bn5 btn-responsive-width">
+              DRINK FRUITS
+            </button>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide position-relative ">
+          <div className="d-flex flex-column align-items-center justify-content-center">
+            <img className="w-100" src={cart5} alt="" />
+            <button className="border-0 fw-bold py-1 bg-light bn5 btn-responsive-width">
+              DRINK FRUITS
+            </button>
+          </div>
+        </SwiperSlide>
+      </Swiper>
+              </div>
             
-               </div>
             </div>
-          
+            </div>
           </div>
         
-        </div>
+       
       
       </div>
    
